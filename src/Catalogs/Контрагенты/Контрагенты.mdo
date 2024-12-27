@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d7b4fe-a237-49fa-8470-b91bbef6a148">
+  <producedTypes>
+    <objectType typeId="0b8c0dec-d426-4b68-a5f7-49864ff2d750" valueTypeId="a8a11027-e3fc-41f9-aa56-983273bfba4f"/>
+    <refType typeId="ce9a4624-4754-4576-97be-fdeff1b5af91" valueTypeId="c5d088cc-6b8c-4ad7-9857-3eac4d1c83c5"/>
+    <selectionType typeId="ee00f8a4-927b-49a4-9a80-9f3655687de3" valueTypeId="e12bfc35-b878-43ef-bfde-68a39631c3e8"/>
+    <listType typeId="c72a527f-a3e3-46a6-8082-661a808daf5e" valueTypeId="2b9596f5-f9ba-44fb-814e-61b180e322af"/>
+    <managerType typeId="2b32f451-61e3-4ada-bbbe-175e70821d9b" valueTypeId="0d6b55de-5686-48b9-8e74-225f74ca785e"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="46a23151-40bf-49b4-a8f4-3b2663af0739">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

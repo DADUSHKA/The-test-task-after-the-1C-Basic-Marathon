@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d123efb3-0c74-40cc-a8ff-e7722fcee8c9">
+  <name>ТестовоеМарафонБазовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовое марафон базовый</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="04f8f999-c6d7-46d7-82cc-bb597ad92c28"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b81675eb-f26f-4d4e-a89f-68a27573b204"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b8e8a7bd-ef18-4205-a3fb-7bc265d638dc"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e46d0f63-2733-44d7-ab78-0cdb99b05aba"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="174d7c0a-f677-459e-aebc-89412e1ee624"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f5b43aee-e3b2-4e69-b473-4f9016270807"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="25aced9e-d740-4273-b5f0-54d72a1844af"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="75cdbd40-dfb7-428e-a663-4ef5f5715b2f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <dataProcessors>DataProcessor.ОбработкаТестовоЗзаданиеПослеМарафона1СБазовый</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросовКурса</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкаТестовоЗзаданиеПослеМарафона1СБазовый1</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
+</mdclass:Configuration>

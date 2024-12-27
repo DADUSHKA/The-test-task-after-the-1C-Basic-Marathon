@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73090f90-e33d-4c96-9dac-be734f386fc1">
+  <producedTypes>
+    <objectType typeId="3cc3d778-3349-45f0-b452-dc771d29b0b4" valueTypeId="16cfb2d6-9807-42d9-91ce-0291dfb9a829"/>
+    <managerType typeId="f6972e3b-53c8-4291-9a85-b4e8ba27d97e" valueTypeId="08be85e5-672d-4c60-90ad-0dcba59b8800"/>
+  </producedTypes>
+  <name>ОбработкаТестовоЗзаданиеПослеМарафона1СБазовый1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка тестово ззадание после марафона1 с базовый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаТестовоЗзаданиеПослеМарафона1СБазовый1.Form.Форма</defaultForm>
+  <forms uuid="6087964c-6203-42c1-b044-96748b07cda2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
