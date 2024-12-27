@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9de0f63-4465-4790-8287-75b8afef65ea">
+  <name>ТестоваяОбщаяКомандаДляГита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая общая команда для гита</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

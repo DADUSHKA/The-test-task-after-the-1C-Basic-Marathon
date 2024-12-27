@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonCommands>CommonCommand.ТестоваяОбщаяКомандаДляГита</commonCommands>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
